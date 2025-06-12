@@ -30,9 +30,30 @@ export default function LoginForm() {
                 </button>
                 <div className={`absolute top-0 h-full w-1/2 rounded bg-gradient-to-r from-blue-700 via-cyan-600 to-cyan-200 transition-all
                     ${isLoginMode ? "left-0" : "left-1/2"}`}>
-
                 </div>
             </div>
+
+            {/* Form Section */}
+            <form className="space-y-4">
+            {/* sign-sp only Field */}
+            {!isLoginMode && (
+             <input
+                type="text"
+                placeholder="Name"
+                required
+                className="w-full p-3 border-b-2 border-gray-300 outline-none focus:border-cyan-500 placeholder-gray-400"
+             />
+            )}
+            {/* Shared Fields */}
+            <input
+            type="email"
+            placeholder="Email Address"
+            required
+            className="w-full p-3 border-b-2 border-gray-300 outline-none focus:border-cyan-500 placeholder-gray-400"
+
+            />
+
+            </form>
 
         </div>
     )
