@@ -20,6 +20,18 @@ export default function LoginForm() {
                 >
                     Login
                 </button>
+                <button
+                className={`w-1/2 text-lg font-medium transition-all z-10 ${
+                    !isLoginMode ? "text-white" : "text-black"
+                }`}
+                onClick={() => setIsLoginMode(false)}
+                >
+                Sign Up
+                </button>
+                <div className={`absolute top-0 h-full w-1/2 rounded bg-gradient-to-r from-blue-700 via-cyan-600 to-cyan-200 transition-all
+                    ${isLoginMode ? "left-0" : "left-1/2"}`}>
+
+                </div>
             </div>
 
         </div>
