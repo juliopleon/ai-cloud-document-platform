@@ -54,7 +54,7 @@ export default function LoginForm() {
             <input type="password"
             placeholder="Password"
             required
-            className="w-full p-3 border-b-2 border-gray-300 outline-none focus:border-cyan-500"
+            className="w-full p-3 border-b-2 border-gray-300 outline-none focus:border-cyan-500";
             />
 
             </form>
