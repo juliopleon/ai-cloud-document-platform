@@ -57,7 +57,7 @@ export default function LoginForm() {
             className="w-full p-3 border-b-2 border-gray-300 outline-none focus:border-cyan-500"
             />
 
-            </form>;
+            </form>
 
         </div>
     )
