@@ -64,3 +64,5 @@ export default function LoginForm() {
 }
 
 perimeter = L * W
+
+total_cost = quantity * item_price
